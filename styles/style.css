@@ -69,24 +69,6 @@
   position: absolute;
 }
 
-.description{
-  padding-top: 100px;
-  
-}
-.two-columns{
-  min-width: 784; 
-  width: 80%;
-  font-size: 24px; 
-  display:flex;
-}
-
-.two-columns__brief{
-  line-height: 1.2;
-  font-size: 18px;
-  width: 175px;
-  color: #2f80ed;
-}
-
 .header__link{
   color: #2f80ed; 
   font-size: 18px;
@@ -98,10 +80,95 @@
   position: absolute;
 }
 
+.description{
+  padding-top: 100px;  
+}
 
+.two-columns{
+  min-width: 784; 
+  width: 80%;
+  font-size: 24px; 
+  display:flex;
+  justify-content: space-between;
+}
 
+.two-columns__brief{
+  line-height: 1.2;
+  font-size: 18px;
+  width: 175px;
+  color: #2f80ed;
+  font-weight: normal;
+}
+  
 
+.letter{
+  line-height:34px;
+  font-size: 24px;
+  font-weight: bold;
+}
 
+.digits{
+  padding-top: 100px;
+  
+}
+
+.section-title {
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 100px;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+}
+
+.section-subtitle {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 20px;
+  font-family: Arial;
+  display: flex;
+  justify-content: center;
+}
+
+.table{
+  width: 1100px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+}
+
+.cell{
+  width: 250px;
+  margin-top: 60px;
+}
+
+.heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: Arial;
+} 
+
+.text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Arial;
+  margin-top: 20px;
+   
+}
+
+.text-lower {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: Arial;
+  margin-top: 20px;
+}
 
 /* и элемента с модификатор;ом вида ключ-значение */
 .table__cell_theme_dark {
