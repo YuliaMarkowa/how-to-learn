@@ -13,19 +13,102 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  z-index: 0;
+   
   /* выше установили ограничения для секции */
+}
+
+.main-illustration {
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  background-color: #2f80ed;
+  position: absolute;
+  right: 0;
+  top: 64px;
+  z-index: 1;
 }
 
-/* и элемента с модификатором вида ключ-значение */
+.block_key_value {
+  height: 32px;
+  width: 183px;
+  position: absolute;
+  left: 64px;
+  top: 30px;
+}
+
+.header__title {
+  font-size: 102px;
+  line-height: 96px;
+  width: 730px;
+  left: 64px;
+  font-weight: bold;
+  align-self: center;
+  position: absolute;
+}
+
+.header__subtitle{
+  width: 388px; 
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  left: 64px;
+  bottom: 30px;
+  position: absolute;
+}
+
+.description{
+  padding-top: 100px;
+  
+}
+.two-columns{
+  min-width: 784; 
+  width: 80%;
+  font-size: 24px; 
+  display:flex;
+}
+
+.two-columns__brief{
+  line-height: 1.2;
+  font-size: 18px;
+  width: 175px;
+  color: #2f80ed;
+}
+
+.header__link{
+  color: #2f80ed; 
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: normal;
+  left: 130px;
+  bottom: 45px;
+  text-decoration: none;
+  position: absolute;
+}
+
+
+
+
+
+
+/* и элемента с модификатор;ом вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
 }
+
+
