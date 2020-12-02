@@ -346,8 +346,7 @@
   font-size: 18px;
   line-height: 30px;
   font-weight: normal;
-  text-decoration: none;
-  padding: 0;
+  text-decoration: none;  
 }
 
 .footer__column-link:hover {
