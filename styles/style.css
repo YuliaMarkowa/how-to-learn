@@ -7,6 +7,7 @@
 
 .list {
   list-style-type: none;
+  padding: 0;
 }
 
 .header {
@@ -330,8 +331,7 @@
   line-height: 30px;
   font-weight: bold;
   display: flex;
-  flex: column;
-  padding-left: 40px;
+  flex: column;   
 } 
 
 .footer__column-links {
