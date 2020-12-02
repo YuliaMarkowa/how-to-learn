@@ -32,7 +32,7 @@
   height: 32px;
   width: 183px;
   position: absolute;
-  z-index: 5; 
+  z-index: 5;
   left: 64px;
   top: 30px;
 }
@@ -54,7 +54,7 @@
   font-weight: bold;
   display: flex;
   align-self: center;
-  margin-left: 64px; 
+  margin-left: 64px;
   z-index: 4;
 }
 
