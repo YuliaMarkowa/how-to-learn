@@ -4,6 +4,7 @@
   font-size: 30px;
   font-weight: normal;
   margin-left: 48px;
+  align-self: flex-start;
   text-decoration: none;
   transition: 1s ease;
   opacity: 1;
