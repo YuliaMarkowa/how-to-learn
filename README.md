@@ -1,6 +1,6 @@
 # methods-of-learn
 
-[Лендинг] (https://yuliamarkowa.github.io/methods-of-learn/index.html) с информацией о способах прокачки своих знаний.
+[Лендинг](https://yuliamarkowa.github.io/methods-of-learn/index.html) с информацией о способах прокачки своих знаний.
 Проект состоит из 5 секций:
 
 1. Блок Техника обучения от Барбары Оакли.
